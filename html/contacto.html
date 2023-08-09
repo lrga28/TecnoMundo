@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">TecnoMundo</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#contenidoMenu"
+                aria-controls="contenidoMenu"
+                aria-expanded="false"
+                aria-label="Mostrar/Ocultar Navegación"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="contenidoMenu">
+                
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Inicio</a>
+                    </li>
+
+                    
+                    <li class="nav-item dropdown">
+                        <a
+                            href="#"
+                            class="nav-link dropdown-toggle"
+                            id="submenuProductos"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            Productos
+                        </a>
+
+                        
+                        <ul class="dropdown-menu" aria-labelledby="submenuProductos">
+                            <li><a href="./pc.html" class="dropdown-item">Computadoras</a></li>
+                            <li><a href="./accesorios.html" class="dropdown-item">Accesorios</a></li>
+                            <li><a href="./telefono.html" class="dropdown-item">Smartphones</a></li>
+                            <li><a href="./camara.html" class="dropdown-item">Camaras</a></li>
+                            <li><a href="./applewach.html" class="dropdown-item">Apple Watch</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <form action="">
+        <h2>Contactanos</h2>
+        <input type="text" name="Nombre" placeholder="Nombre">
+        <input type="text" name="Correo" placeholder="Correo">
+        <input type="text" name="Telefono" placeholder="Telefono">
+        <textarea name="Mensaje" placeholder="Escriba su Mensaje"></textarea>
+        <input type="button" value="Enviar" id="boton">
+    </form>
+
+    <footer>
+        
+        <div id="container">
+            <p>&copy; TecnoMundo 2023</p>
+        </div>
+        
+        
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
