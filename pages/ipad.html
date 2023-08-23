@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"/>
-		<title>Pagina Producto</title>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="¡Bienvenido a TecnoMundo! Explora nuestra amplia gama de productos electrónicos, desde smartphones hasta computadoras y accesorios. ¡Encuentra los mejores productos tecnológicos aquí!">
+    	<meta name="keywords" content="tecnología, electrónicos, smartphones, computadoras, accesorios">
+    	<meta name="author" content="TecnoMundo">
+		<meta name="copyright" content="2023 TecnoMundo. Todos los derechos reservados.">
+    	<meta property="og:title" content=TecnoMundo>
+		<meta property="og:site_name" content=TecnoMundo >
+		<meta property="og:url" content=https://lrga28.github.io/TecnoMundo/>
+		<meta property="og:description" content=¡Bienvenido a TecnoMundo! Explora nuestra amplia gama de productos electrónicos, desde smartphones hasta computadoras y accesorios. ¡Encuentra los mejores productos tecnológicos aquí!>
+		<meta property="og:type" content=website>
+		<meta property="og:image" content=https://images.unsplash.com/photo-1473968512647-3e447244af8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80>
+		<title>Ipad | TecnoMundo</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-		<link rel="stylesheet" href="../style.css" />
+		<link rel="stylesheet" href="../css/style.css" />
 	</head>
 	<body>
 		<header>
@@ -52,6 +59,7 @@
                                     <li><a href="./pc.html" class="dropdown-item">Computadoras</a></li>
                                     <li><a href="./accesorios.html" class="dropdown-item">Accesorios</a></li>
                                     <li><a href="./telefono.html" class="dropdown-item">Smartphones</a></li>
+                                    <li><a href="./camara.html" class="dropdown-item">Camaras</a></li>
                                     <li><a href="./applewach.html" class="dropdown-item">Apple Watch</a></li>
                                 </ul>
                             </li>
@@ -69,13 +77,13 @@
 		<main class="main2">
 			<div class="container-img">
 				<img
-					src="https://images.unsplash.com/photo-1474376700777-eb547d9bed2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+					src="https://images.unsplash.com/photo-1527698266440-12104e498b76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
 					alt="imagen-producto"
 				/>
 			</div>
 			<div class="container-info-product">
 				<div class="container-price">
-					<span>$3200.00</span>
+					<span>$1200.00</span>
 					<i class="fa-solid fa-angle-right"></i>
 				</div>
 
@@ -86,9 +94,23 @@
 							<option disabled selected value="">
 								Escoge una opción
 							</option>
-							<option value="blanco">Negro</option>
-							<option value="beige">Beige</option>
+							<option value="rojo">Rojo</option>
+							<option value="blanco">Blanco</option>
+							<option value="beige">Negro</option>
 						</select>
+					</div>
+					<div class="form-group">
+						<label for="size">Memoria</label>
+						<select name="size" id="size">
+							<option disabled selected value="">
+								Escoge una opción
+							</option>
+							<option value="64">64 GB</option>
+							<option value="128">128 GB</option>
+							<option value="512">512 GB</option>
+							<option value="1">1 TB</option>
+						</select>
+					</div>
 					<button class="btn-clean">Limpiar</button>
 				</div>
 
@@ -118,10 +140,9 @@
 						<i class="fa-solid fa-chevron-down"></i>
 					</div>
 					<div class="text-description">
-						<p>Nikon fabrica cámaras fotográficas con tecnología de punta y excelencia en la calidad. Sus productos permiten que explores toda tu creatividad, asegurándote calidad en los resultados.
-
-                            Una extensión de tu visión
-                            El visor réflex permite obtener una perspectiva realista y tomar fotografías increíbles con resultados más exactos gracias a la posibilidad de intercambiar objetivos. Además, por sus múltiples funcionalidades, podés dar rienda suelta a tu creatividad y controlar diferentes parámetros para tomar la fotografía perfecta.						</p>
+						<p>
+							Este producto combina la potencia y la capacidad de una computadora con la versatilidad y facilidad de uso que solo un iPad puede brindar. Realizar varias tareas a la vez, como editar documentos mientras buscás información en internet o sacarte una selfie, es sumamente sencillo. Como si esto fuera poco, también ofrece la posibilidad de descargar desde la App Store cientos de aplicaciones creadas para pintar, dibujar, escuchar música y ¡mucho más!
+						</p>
 					</div>
 				</div>
 
@@ -148,7 +169,6 @@
 				<div class="container-social">
 					<span>Compartir</span>
 					<div class="container-buttons-social">
-						<a href=""><i class="fa-solid fa-envelope"></i></a>
 						<a href="https://twitter.com/?lang=es" target="_blank">twitter</a>
 						<a href="https://www.instagram.com/" target="_blank">instagram</a>
 					</div>
@@ -162,63 +182,63 @@
 				<div class="card">
 					<div class="card-img">
 						<img
-							src="https://images.unsplash.com/photo-1622551140827-d51009f1eab2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+							src="https://images.unsplash.com/photo-1542751110-97427bbecf20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1084&q=80"
 							alt="producto-1"
 						/>
 					</div>
 					<div class="info-card">
 						<div class="text-product">
-							<h3>Ony Alpha 7 III ILCE-7M3 sin espejo color negro.
+							<h3>Ipad Galaxy Book3 Pro
                             </h3>
-							<p class="category">Camaras, Olympus</p>
+							<p class="category">Tablet, Ipad</p>
 						</div>
-						<div class="price">$6500.00</div>
+						
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-img">
 						<img
-							src="https://images.unsplash.com/photo-1612547036242-77002603e5aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+							src="https://images.unsplash.com/photo-1590103514924-009a76183beb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
 							alt="producto-2"
 						/>
 					</div>
 					<div class="info-card">
 						<div class="text-product">
-							<h3>Nikon Kit D5600 + lente AF-P DX 18-55mm VR + lente AF-P DX 70-300mm DSLR color negro</h3>
-							<p class="category">Camaras, TM</p>
+							<h3>Ultrabook Acer Swift X I7 </h3>
+							<p class="category">Tablet, Ipad</p>
 						</div>
-						<div class="price">$8550.00</div>
+						
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-img">
 						<img
-							src="https://images.unsplash.com/photo-1519638831568-d9897f54ed69?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+							src="https://images.unsplash.com/photo-1590065672897-8cd8dc54a530?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
 							alt="producto-3"
 						/>
 					</div>
 					<div class="info-card">
 						<div class="text-product">
-							<h3>Sony Alpha Kit 6100 + lente 16-50mm f/3.5 ILCE-6100L - Negro</h3>
-							<p class="category">Camaras, Palaroid</p>
+							<h3> Vostro 3400 Amd Athlon 3050u 256gb Ssd W11</h3>
+							<p class="category">Tablet, Ipad</p>
 						</div>
-						<div class="price">$3050.00</div>
+						
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-img">
 						<img
-							src="https://images.unsplash.com/photo-1580067366068-445d9fecd0f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1007&q=80"
+							src="https://plus.unsplash.com/premium_photo-1673968280716-ca0c00af8a39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
 							alt="producto-4"
 						/>
 					</div>
 					<div class="info-card">
 						<div class="text-product">
 							<h3>
-                                Canon EOS Kit M50 Mark II + lente 15-45mm 3.5-6.3 IS STM + lente 55-200mm sin espejo color negro</h3>
-							<p class="category">Camaras, Canon</p>
+                                Tuf Gaming A15 Ryzen 7 512gb Free Dos</h3>
+							<p class="category">Tablet, Ipad</p>
 						</div>
-						<div class="price">$15000.00</div>
+						
 					</div>
 				</div>
 			</div>

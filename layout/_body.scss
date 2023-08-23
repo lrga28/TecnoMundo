@@ -1,0 +1,19 @@
+
+body {
+    background-color: $color-background;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
+  }
+
+.body2 {
+    font-family: monospace;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .hidden {
+    display: none;
+  }
+  

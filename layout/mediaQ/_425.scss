@@ -1,0 +1,18 @@
+@media (max-width: 425px) {
+    .container-related-products{
+        .card-list-products {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          gap: 25px;
+        }
+    }
+  
+    .main2 {
+      display: block;
+      gap: 30px;
+      margin-bottom: 80px;
+      background-color: #f7f7f7;
+      margin: 10px;
+    }
+  }
